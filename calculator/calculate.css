@@ -1,0 +1,105 @@
+*{box-sizing: border-box;};
+
+/* main box css */
+
+.main{
+    display: block;
+    background-color: blue;
+    background-color: linear-gradient(from right rgb(56, 56, 251), to left rgb(245, 72, 245));
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.output-cont{
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5%;
+    padding: 5px;
+    height: max-content;
+}
+
+.outputs{
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+}
+.prevout{
+    display: block;
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+}
+.recentout{
+    display: block;
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: right;
+}
+
+.prevout:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.recentout:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.calculator{
+    display: block;
+    background-color: lightgrey;
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+    outline: none;
+    border:none;
+}
+.center-cont{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: max-content;
+}
+.btn{
+    margin: 0 auto;
+    margin-left: 3px;
+    margin-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.midbtn{
+    margin: 0 auto;
+    margin-left: 3px;
+    margin-top: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.bigbtn{
+    margin: 0 auto;
+    margin-top: 5px;
+    padding-right: 22.3%;
+    padding-left: 22.3%;
+}
+
+.operator-display{
+    display: flex;
+    text-align: left;
+    padding: 0;
+    font-size: large;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+
+
